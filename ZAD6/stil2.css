@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-red{
+    background-color: indianred;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: solid 1px white;
+}
+a.nav-link{
+    color: white!important;
+}
+.jumbotron{
+    background-color: orange!important;
+    height: 400px;
+}
+.gray{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 7px;
+    width: 31%;
+    height: 250px;
+    display: inline-block;
+}
+a.nav-link{
+    padding-right: 60px!important;
+    padding-left: 60px!important;
+}
+.pic{
+    padding: 10px;
+    float: right;
+    height: 120px;
+    width: 120px;
+}
+.footer{
+    background-color: indianred;
+    color: white;
+    padding: 20px;
+    height: 60px;
+}
+tab{
+    padding-left: 400px;
+}
+#foot{
+    padding: 5px;
+}

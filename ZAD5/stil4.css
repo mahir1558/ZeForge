@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkred;
+}
+.header{
+    height: 40px;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    padding-left: 0;
+}
+.about{
+    height: 200px;
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    background-color: lightgreen;
+}
+.nav{
+    width: 70%;
+    height: 22px;
+    background-color: gray;
+    margin: auto;
+    padding: 15px;
+}
+a li{
+    display: inline;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.first{
+    width: 30%;
+    height: 200px;
+    display: inline;
+    float: left;
+    padding-bottom: 30px;
+}
+.second{
+    width: 70%;
+    height: 200px;
+    display: inline;
+    color: white;
+    float: right;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+.main{
+    height: 700px;
+    width: 71%;
+    margin: auto;
+    padding: 15px;
+}
+.first1{
+    width: 25%;
+    height: 500px;
+    display: inline;
+    float: left;
+    background-color: darkcyan;
+}
+.second1{
+    width: 75%;
+    height: 500px;
+    display: inline;
+    float: right;
+    background-color: bisque;
+}
+#slika2{
+    padding: 15px;
+    position: relative;
+    padding-top: 50px;
+}
+.meni{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+hr.new{
+    background-color: white;
+    border: 0.5px solid white;
+}
+h2{
+    color: darkcyan;
+    padding: 15px;
+}
+p{
+    padding: 15px;
+}
+

@@ -1,0 +1,104 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	height:700px;
+	position:relative;
+}
+.header{
+	position:absolute;
+	width:100%;
+	height:100px;
+	top:0px;
+	background-color:black;
+}
+.footer{
+	position:absolute;
+	width:100%;
+	height:100px;
+	bottom:0px;
+	background-color:darkred;
+}
+#logBtn{
+	float:right;
+	margin:15px;
+	padding:10px;
+	background-color:green;
+	border:black 2px;
+	font-size:16px;
+	text-align:center;
+}
+#regBtn{
+	float:right;
+	margin:15px;
+	padding:10px;
+	background-color:green;
+	border:black 2px;
+	font-size:16px;
+	text-align:center;
+}
+#logBtn:hover{
+	background-color:#ff192e;
+}
+#regBtn:hover{
+	background-color:#ff192e;
+}
+.logo{
+	float:left;
+	width:100px;
+	height:50px;
+	background-color:#cc33ff;
+	margin:15px;
+}
+.logo:hover{
+	width:150px;
+	transition-delay:0.7s;	
+}
+#content{
+	background-color:#252525;
+	position:relative;
+	width:100%;
+	height:500px;
+	top:100px;
+}
+#logBox{
+	background-color:#eeeeee;
+	width:80%;
+	height:300px;
+	top:17%;
+	left:10%;
+	position:relative;
+}
+#forma{
+	width:80%;
+	height:180px;
+	background-color:#252525;
+	margin:auto;
+	position:absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.dugme{
+	font-size:16px;
+	text-align:center;
+	border:3px black;
+	padding:10px;
+	margin:5px;
+	position:relative;
+	top:50px;
+	width:100px;
+	height:50px;
+	background-color:green;
+	display:inline;
+}
+.dugme:hover{
+	background-color:#ff192e;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+	
